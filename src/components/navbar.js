@@ -10,7 +10,7 @@ const Navbar = () => {
                         <div className="flex flex-col">
                             <h1 className="text-red font-bold text-lg">
                                 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES
-                            </h1>
+                            </h1> 
                             <h2 className="text-blackish font-bold text-lg">
                                 The Country's 1st PolytechnicU
                             </h2>
