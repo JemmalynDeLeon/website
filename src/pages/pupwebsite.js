@@ -1,6 +1,6 @@
-import Navbar from '@components/navbar2.js'
+import Navbar from '@/components/nav2.js'
 import Footer from '@components/footnote.js'
-import Navbar2 from '@/components/navbar'
+import Navbar2 from '@/components/nav1'
 
 
 

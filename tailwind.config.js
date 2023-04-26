@@ -1,16 +1,61 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
-  ],
+  // mode: "jit",
+  content: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      
+      colors: {
+        'blue': '#1fb6ff',
+        'red':'#8492a6',
+        'white': '#F8EBE4',
+        'purple': '#7e5bef',
+        'pink': '#ff49db',
+        'orange': '#ff7849',
+        'green': '#13ce66',
+        'yellow': '#ffc82c',
+        'gray-dark': '#273444',
+        'gray': '#8492a6',
+        'gray-light': '#d3dce6',
+      },
+
+      text:{
+        'white': '#F8EBE4',
+      },
+
+      fontFamily: {
+        sans: ['Graphik', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+      },
+      extend: {
+        spacing: {
+          '8xl': '96rem',
+          '9xl': '128rem',
+        },
+        borderRadius: {
+          '4xl': '2rem',
+        }
+      },
+
+      // colors: {
+      //   hehe: '#18D039',
+      //   'great-blue': {
+      //     DEFAULT: '#2A669F',
+      //     50: '#E4F7F8',
+      //     100: '#CCEEF2',
+      //     200: '#9CD7E5',
+      //     300: '#6CB9D8',
+      //     400: '#3B94CB',
+      //     500: '#2A669F',
+      //     600: '#234B83',
+      //     700: '#1B3366',
+      //     800: '#14204A',
+      //     900: '#0C102E',
+      //     950: '#080A20',
+      //   },
+      // }
+      padding: {
+        63: '15.5rem',
       },
     },
   },
