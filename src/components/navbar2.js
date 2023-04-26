@@ -1,16 +1,16 @@
 function Navigation() {
   return (
     <nav
-      className="flex flex-wrap items-center justify-between pl-20 bg-white text-gray-500 m-0"
+      className="flex flex-wrap items-center justify-between pl-20 bg-#D87B6C text-black-l m-0"
       style={{
         lineHeight: "23px",
         fontWeight: 300,
-        color: "#555",
+        color: "black",
         overflowX: "hidden",
-        background: "white",
+        background: "300",
       }}
     >
-      <div className="hidden lg:block">
+      <div className="hidden lg:block ">
         <ul className="flex space-x-4">
           <img src="govph.png" />
           <li>

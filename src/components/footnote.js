@@ -5,7 +5,7 @@ const Footnote = () => {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div>
                 <div class="flex flex-col p-10 m-0">
-                    <p className="text-sm font-bold text-red uppercase pb-4">ONLINE SERVICES</p>
+                    <p className="text-sm font-bold text-red uppercase pb-4 ">ONLINE SERVICES</p>
                     <div class="flex flex-col gap-2">
                         <a href="" className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer ">PUP WebMail</a>
                         <a href="" className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer">PUP iApply</a>
