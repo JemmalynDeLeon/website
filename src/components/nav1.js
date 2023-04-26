@@ -39,18 +39,3 @@ const Navbar = () => {
     );
 };
 export default Navbar;
-
-
-// for search bar
-
-// // <div class="search-side hidden-xs">
-// <div id="pnlS" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnSearch')">
-	
-//     <span class="input-group input-group-sm">
-//     <input name="ctl00$txtSearch" type="text" id="txtSearch" class="form-control" placeholder="Type keyword here...">
-//     <span class="input-group-btn">
-//     <a id="btnSearch" class="btn btn-system btn-flat" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSearch&quot;, &quot;&quot;, false, &quot;&quot;, &quot;/search&quot;, false, true))"><i class="fa fa-search"></i></a>
-//     </span>
-//     </span>
-    
-//     {/* </div></div> */}

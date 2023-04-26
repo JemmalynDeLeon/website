@@ -13,6 +13,7 @@ module.exports = {
         'black' : '#020808',
         'pink': '#ff49db',
         'orange': '#ff7849',
+        'blue': '#498EFF',
         'green': '#13ce66',
         'yellow': '#ffc82c',
         'grey-dark': '#273444',
@@ -46,6 +47,8 @@ module.exports = {
         '5': '32px',
         '6': '48px',
       },
+
+      
       // colors: {
       //   hehe: '#18D039',
       //   'great-blue': {

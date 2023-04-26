@@ -1,13 +1,12 @@
 const Footnote = () => {
     return (
         <>
-        <div className="flex flex-row justify-center gap-4 bg-lightgrey space-5">
+        <div className="flex flex-row justify-center gap-4 space-5">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div>
                 <div class="flex flex-col p-10 m-0">
                     <p className="pb-4 text-sm font-bold uppercase text-red textco ">ONLINE SERVICES</p>
                     <div class="flex flex-col gap-4 space-5">
-                        <a href="" className="select-none text-redtext text-textsize hover:underline hover:cursor-pointer ">PUP WebMail</a>
                         <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">PUP iApply</a>
                         <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">SIS for Students</a>
                         <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">SIS for faculty</a>
@@ -36,21 +35,25 @@ const Footnote = () => {
             </div>
             <div className="flex flex-col p-10 ">
                 <p className="pb-4 text-sm font-bold uppercase text-red textco">KEEP IN TOUCH</p>
-                <div>
-                <ul class="social-icons">
-                <a target="_blank" class="facebook" href="https://www.facebook.com/ThePUPOfficial"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" class="twitter" href="https://www.twitter.com/ThePUPOfficial"><i class="fa fa-twitter"></i></a>
-                <a target="_blank" class="google" href="https://www.youtube.com/user/pupcreatv"><i class="fa fa-youtube-play"></i></a>
-                <a target="_blank" class="linkdin" href="https://www.linkedin.com/school/polytechnic-university-of-the-philippines/"><i class="fa fa-linkedin"></i></a>
-                <a target="_blank" class="rss" href="/rss/"><i class="fa fa-rss"></i></a>
-                <a target="_blank" class="spotify" href="https://open.spotify.com/show/6x7hlv9qZX8VpwMIRAAiRb?si=h7yM8PeXR6qxSjQIs2GveA&amp;dl_branch=1"><i class="fa fa-spotify"></i></a>
-                </ul>
+                <div  class="flex flex-row gap-7">
+                <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                            <i class="fa fa-brands fa-facebook text-white text-lg"></i></span>
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                            <i class="fa fa-brands fa-twitter text-white"></i></span>
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                            <i class=" fa fa-brands fa-youtube text-white"></i></span>
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                            <i class="fa fa-brands fa-linkedin text-white"></i></span>
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                            <i class="fa fa-solid fa-rss text-white"></i></span>
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                            <i class="fa fa-brands fa-spotify text-white "></i></span>
                 </div>
                 
-                <p className="gap-5 pb-4 text-sm font-bold uppercase text-red textco space-7 ">CONTACT US</p>
+                <p className="pt-5 pb-4 text-sm font-bold uppercase text-red textco">CONTACT US</p>
                 <p>Phone: (+63 2) 5335-1PUP (5335-1787) or 5335-1777</p>
                 <p>Email: inquire@pup.edu.ph</p>
-                <p className="gap-5 pb-4 text-sm font-bold uppercase text-red textco space-7">PUPWEBSITE 10</p>
+                <p className="pt-5 pb-4 text-sm font-bold uppercase text-red textco">PUPWEBSITE 10</p>
                 <p>Terms of Use | Privacy Statement | About PUPWebSite</p>
         
             </div>
