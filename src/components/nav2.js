@@ -3,39 +3,40 @@
 function Navigation() {
   return (
     <nav
-      className="flex flex-wrap items-center justify-between pl-20 m-0 text-gray-500 bg-white"
+      className="flex flex-wrap items-center justify-between pl-20 m-0 text-white "
       style={{
         lineHeight: "23px",
         fontWeight: 300,
-        color: "#555",
-        overflowX: "hidden",
-        background: "white",
+        backgroundImage: "url(bg.jpg)",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
       }}
     >
-      <div className="">
-        <ul className="flex space-x-10 bg-">
+      <div className="mx-auto" >
+        <ul className="flex space-x-10 ">
           <img src="govph.png" />
           <li>
             <a href="#"></a>
             <a href="#" 
-            className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red-800" 
+            className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red" 
             style={{ padding: '10px 16px' }}>Home</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red-800 " style={{ padding: '10px 16px' }}>Good Governance</a>
+            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>Good Governance</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red-800 " style={{ padding: '10px 16px' }}>Transparency</a>
+            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>Transparency</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red-800 " style={{ padding: '10px 16px' }}>International Affairs</a>
+            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>International Affairs</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red-800 " style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
+            <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
           </li>
         </ul>
       </div>
@@ -45,7 +46,7 @@ function Navigation() {
       </div>
       <div className="flex items-center pr-20">
         <a href="#"></a>
-        <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red-800 " style={{ padding: '10px 16px' }}>Contact Us</a>
+        <a href="#" className="px-8 py-2 text-black transition-all rounded bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>Contact Us</a>
       </div>
     </nav>
   );

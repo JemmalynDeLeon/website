@@ -7,20 +7,22 @@ module.exports = {
       
       colors: {
         'blue': '#1fb6ff',
-        'red':'#8492a6',
-        'white': '#F8EBE4',
+        'red':'#9F2A2A',
+        'white': '#FFFFFF',
         'purple': '#7e5bef',
+        'black' : '#020808',
         'pink': '#ff49db',
         'orange': '#ff7849',
         'green': '#13ce66',
         'yellow': '#ffc82c',
-        'gray-dark': '#273444',
-        'gray': '#8492a6',
+        'grey-dark': '#273444',
+        'grey': '#555',
         'gray-light': '#d3dce6',
+        'lightgrey': '#E0E3E2',
       },
 
       text:{
-        'white': '#F8EBE4',
+        'white': '#CDD0D5F',
       },
 
       fontFamily: {
@@ -36,7 +38,14 @@ module.exports = {
           '4xl': '2rem',
         }
       },
-
+      spacing: {
+        '1': '8px',
+        '2': '12px',
+        '3': '16px',
+        '4': '24px',
+        '5': '32px',
+        '6': '48px',
+      },
       // colors: {
       //   hehe: '#18D039',
       //   'great-blue': {

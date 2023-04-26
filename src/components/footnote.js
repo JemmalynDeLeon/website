@@ -1,19 +1,19 @@
 const Footnote = () => {
     return (
         <>
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-row justify-center gap-4 bg-lightgrey space-5">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div>
                 <div class="flex flex-col p-10 m-0">
-                    <p className="pb-4 text-sm font-bold text-red-800 uppercase textco ">ONLINE SERVICES</p>
-                    <div class="flex flex-col gap-2">
+                    <p className="pb-4 text-sm font-bold uppercase text-red textco ">ONLINE SERVICES</p>
+                    <div class="flex flex-col gap-4 space-5">
                         <a href="" className="select-none text-redtext text-textsize hover:underline hover:cursor-pointer ">PUP WebMail</a>
                         <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">PUP iApply</a>
                         <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">SIS for Students</a>
                         <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">SIS for faculty</a>
 
-                        <p className="pb-4 text-sm font-bold text-red-800 uppercase textco ">DOWNLOADS</p>
-                        <div class="flex flex-col gap-2">
+                        <p className="pb-4 text-sm font-bold uppercase text-red textco ">DOWNLOADS</p>
+                        <div class="flex flex-col gap-4 space-5">
                             <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">For Students</a>
                             <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">For Faculty and Employees</a>
                         </div>
@@ -21,8 +21,8 @@ const Footnote = () => {
                 </div>
             </div>
             <div className="flex flex-col p-10">
-                <p className="pb-4 text-sm font-bold text-red-800 uppercase textco">QUICK LINKS</p>
-                <div class="flex flex-col gap-2">
+                <p className="pb-4 text-sm font-bold uppercase text-red textco">QUICK LINKS</p>
+                <div class="flex flex-col gap-4 space-5">
                     <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer ">About PUP</a>
                     <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">Admission Information</a>
                     <a href="" className="select-none text-graytext text-textsize hover:underline hover:cursor-pointer">Branchesa and Campuses</a>
@@ -34,8 +34,8 @@ const Footnote = () => {
                     
                 </div>
             </div>
-            <div className="flex flex-col p-10 bg-yellow">
-                <p className="pb-4 text-sm font-bold text-red-800 uppercase textco">KEEP IN TOUCH</p>
+            <div className="flex flex-col p-10 ">
+                <p className="pb-4 text-sm font-bold uppercase text-red textco">KEEP IN TOUCH</p>
                 <div>
                 <ul class="social-icons">
                 <a target="_blank" class="facebook" href="https://www.facebook.com/ThePUPOfficial"><i class="fa fa-facebook"></i></a>
@@ -47,10 +47,10 @@ const Footnote = () => {
                 </ul>
                 </div>
                 
-                <p className="pb-4 text-sm font-bold text-red-800 uppercase textco">CONTACT US</p>
+                <p className="gap-5 pb-4 text-sm font-bold uppercase text-red textco space-7 ">CONTACT US</p>
                 <p>Phone: (+63 2) 5335-1PUP (5335-1787) or 5335-1777</p>
                 <p>Email: inquire@pup.edu.ph</p>
-                <p className="pb-4 text-sm font-bold text-red-800 uppercase textco">PUPWEBSITE 10</p>
+                <p className="gap-5 pb-4 text-sm font-bold uppercase text-red textco space-7">PUPWEBSITE 10</p>
                 <p>Terms of Use | Privacy Statement | About PUPWebSite</p>
         
             </div>
@@ -59,7 +59,7 @@ const Footnote = () => {
             
         </div>
         <section />
-        <p class="flex justify-center">© 1998-2021 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</p>
+        <p class="flex justify-center text-grey bg-lightgrey ">© 1998-2021 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</p>
 
         
         </>
