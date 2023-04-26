@@ -10,12 +10,8 @@ export default function home() {
     
       <Navbar />
       <Navbar2 />
-        <div className="flex flex-col w-full p-1 space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row">
-        <div className="w-full p-20 lg:w-3/12 bg-rose-500">box 3</div>
-        <div className="w-full p-20 lg:w-5/12 bg-sky-400">box 1</div>
-        <div className="w-full p-20 bg-pink-400 lg:w-4/12">box 2</div>
-      </div>
-      {/* <Row /> */}
+       
+      <Row />
       <section class="py-20 px-16 flex-col gap-6 pl-10">
 
         <iframe src="https://www.youtube.com/embed/EVp6JBwTudk?list=UU3D3_jrSi3sYmx5L5p5RAwA" width="50%" height="450" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"loading="lazy"/>
