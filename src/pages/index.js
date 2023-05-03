@@ -17,7 +17,7 @@ export default function home() {
       <Slider/>
       <Row />
 
-      <div className="flex flex-wrap content-center justify-center h-auto mt-14">
+      <div className="flex flex-wrap content-center justify-center h-auto font-i mt-14">
                 <div className="flex flex-wrap w-3/4 h-auto center">
                     <div className="w-2/5 content-container">
                         <div className="title">

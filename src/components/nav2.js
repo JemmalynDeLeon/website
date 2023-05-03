@@ -13,7 +13,7 @@ function Navigation() {
         backgroundSize: "cover",
       }}
     >
-      <div className="mx-20" >
+      <div className="mx-20 font-i" >
         <ul className="flex items-center pr-20 ">
           <img src="govph.png" />
           <li>

@@ -17,9 +17,13 @@ module.exports = {
         'green': '#13ce66',
         'yellow': '#ffc82c',
         'grey-dark': '#273444',
+        'gray-dark': '#111',
         'grey': '#555',
+        'gray': '#666',
         'gray-light': '#d3dce6',
+        'adamlight' : '#888',
         'lightgrey': '#E0E3E2',
+        'dirtywhite':'#eee',
       },
 
       text:{
@@ -68,6 +72,10 @@ module.exports = {
       // }
       padding: {
         63: '15.5rem',
+      },
+      fontFamily: {
+        j: ['Cinzel', 'sans-serif'],
+        i: ['Inter', 'Noto Sans', 'sans-serif']
       },
     },
   },
