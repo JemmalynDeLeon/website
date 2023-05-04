@@ -1,9 +1,7 @@
-const Slider = () =>{
-    return(
-        <div className="flex bg-neutral-100 h-96"></div>
-        import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useState } from 'react';
+
 
 const Slider = () =>{  
      
@@ -52,13 +50,13 @@ const Slider = () =>{
         <Carousel showIndicators={hovered} className='' interval={5000} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay selectedItem={slide} onChange={(index) => setSlide(index)} showArrows={false}>
             
             <img src="b1.jpg" alt="Image 1" />
-            <img src="b2.jpg" alt="Image 1" />
-            <img src="b3.jpg" alt="Image 1" />
-            <img src="b4.jpg" alt="Image 1" />
-            <img src="b5.jpg" alt="Image 1" />
+            <img src="b2.jpg" alt="Image 2" />
+            <img src="b3.jpg" alt="Image 3" />
+            <img src="b4.jpg" alt="Image 4" />
+            <img src="b5.jpg" alt="Image 5" />
             <img src="b6.jpg" alt="Image 1" />
-            <img src="b7.jpg" alt="Image 1" />
-            <img src="b8.jpg" alt="Image 1" />
+            <img src="b7.jpg" alt="Image 2" />
+            <img src="b8.jpg" alt="Image 3" />
             
          </Carousel>
             <div className='show2'>
@@ -73,10 +71,6 @@ const Slider = () =>{
 
       );
       
-}
-
-export default Slider
-    )
 }
 
 export default Slider
