@@ -2,38 +2,51 @@ const Navbar = () => {
 
 
     return (
-        <nav class="bg-white-700"
-            style={{
-            lineHeight: "23px",
-            fontWeight: 300,
-            backgroundImage: "url(bg.jpg)",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center center",
-            backgroundSize: "cover"}}>
-            <div className="px-4 mx-auto sm:px-6 lg:px-8">
-                <div className="flex flex-wrap items-center justify-between h-20 font-j">
-                    <div className="flex flex-row flex-shrink-0 pl-20">
-                        <img src="PUPLogo.png" height='80px' width='88px' />
-                        <div className="flex flex-col">
-                            <h1 className="text-lg font-bold text-red ">
-                                POLYTECHNIC UNIVERSITY OF THE PHILIPPINES
-                            </h1> 
-                            <h2 className="text-lg font-bold text-gray-500 text-grey">
-                                The Country's 1st PolytechnicU
-                            </h2>
-                            <div className="flex flex-row space-x-8 font-bold text-red ">
-                                <a href="#" className="text-red">About PUP</a>
-                                <a href="#" className="text-red">Academic</a>
-                                <a href="#" className="text-red">Students</a>
-                                <a href="#" className="text-red">Research</a>
+        <nav class="bg-white-800 navbarResponsive">
+        <div class="mx-auto px-2 sm:px-4 md:px-6 end-btn lg:px-8" style={{
+                lineHeight: "23px", fontWeight: 300, backgroundImage: "url(bg.jpg)", backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundSize: "cover",
+            }}>
+                <div className="flex flex-row justify-between xl:px-64 end-btn2">
+
+                    <div>
+                        <div className="flex flex-row">
+                            <img src="PUPLogo.png" class="max-w-[90px] max-h-[90px]" />
+                            <div class="flex flex-col menu font-sanscinzel pt-4">
+                                <div class="navbarMenu hide">
+                                    <a href="#" class="text-red text-sm font-bold flex flex-row gap-2 hover:underline" style={{ fontSize: '18px' }} >
+                                        Polytechnic University of the Philippines
+                                    </a>
+                                    <a href="#" class="text-grey text-sm font-bold" style={{ fontSize: '15px' }}>
+                                    The Country's 1st PolytechnicU
+                                    </a>
+                                </div>
+
+                                <ul className="hidden pt-4 font-bold lg:flex lg:flex-row lg:gap-11 text-red">
+                                    <li><a href="#">About PUP</a></li>
+                                    <li><a href="#">Academic</a></li>
+                                    <li><a href="#">Students</a></li>
+                                    <li><a href="#">Research</a></li>
+                                </ul>
                             </div>
                         </div>
-                        
+                    </div>
+
+                    <div class="flex flex-row my-8 hideSearch " >
+                        <div className='hidden h-6 rounded-sm lg:flex searc' style={{ paddingLeft: '0px' }}>
+                            <input placeholder="Type keyword here..." class="inputSearch" />
+                            <button disabled className='flex flex-wrap content-center justify-center text-white rounded-r-sm bg-red hover:cursor-pointer h-7 w-7'>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </button>
+                        </div>
                         
                     </div>
-                    <input placeholder="Type keyword here..." className="flex flex-wrap items-center justify-between h-16" class="placeholer"></input>
                 </div>
+                <button class="lg:hidden bg-red text-white font-bold  px-4 rounded" id="menu-button">Menu</button>
             </div>
+                        
+        
         </nav>
         
     );
