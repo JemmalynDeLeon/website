@@ -7,6 +7,7 @@ import Icons from '@/components/icons'
 import Slider from "@/components/slider";
 import Fab from 'src/components/fab.js'
 import { Carousel } from 'react-responsive-carousel';
+import Modal from "@components/modal";
 
 
 export default function home() {
@@ -55,6 +56,7 @@ export default function home() {
   return (
     <>
      <section>
+     <Modal/>
       <Navbar />
       <Navbar2 />
     </section>
@@ -283,7 +285,7 @@ export default function home() {
       </section>
       
 
-
+      
 
     <section>
       <Footnote />
