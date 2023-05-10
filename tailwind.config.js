@@ -24,6 +24,9 @@ module.exports = {
         'adamlight' : '#888',
         'lightgrey': '#E0E3E2',
         'dirtywhite':'#eee',
+        'ytred':'#f43f5e',
+        'twitterblue':'#337ab7',
+        'linkedinblue':'#7dd3fc'
       },
 
       text:{

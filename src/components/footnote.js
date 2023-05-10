@@ -35,23 +35,23 @@ const Footnote = () => {
             <div className="flex flex-col p-10">
                 <p className="pb-4 text-sm font-bold uppercase text-red">KEEP IN TOUCH</p>
                 <div class="flex space-x-4">
-                <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500 text-white">
+                <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue text-white">
                             {/* <i class="fa-brands fa-facebook text-white text-lg icon-medium-effect icon-effect-2"></i> */}
                             <i class="fab fa-facebook-f text-white"  style={{ fontSize: '32px'}} ></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-twitterblue">
                             <i class="fab fa-brands fa-twitter text-white"  style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-ytred">
                         <i class="fab fa-brands fa-youtube text-white" style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-linkedinblue">
                             <i class="fab fa-solid fa-linkedin text-white"  style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-orange">
                             <i class="fa fa-solid fa-rss text-white "  style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-green">
                             <i class="fab fa-brands fa-spotify text-white "  style={{ fontSize: '32px'}}></i>
                         </span>
                 </div>
