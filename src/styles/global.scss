@@ -1184,3 +1184,33 @@ a:hover h4 {
   bottom: 55px; right: 35px;
 }
 
+.container-body {
+  width: 1170px;
+  height: auto;
+  padding-right: -15px;
+  padding-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.body-font {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+}
+
+.contact-span {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.blockquote {
+  padding: 10px 20px;
+  line-height: 2;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+.blockquote-p {
+  line-height: 2;
+  font-size: 17.5px;
+}
