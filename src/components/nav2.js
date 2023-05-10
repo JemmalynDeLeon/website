@@ -102,54 +102,39 @@
 function Navigation() {
   return (
     <nav
-      className="flex flex-wrap items-center justify-between m-0 sm:pl-20 text-grey "
-      style={{
-        lineHeight: "23px",
-        fontWeight: 300,
-        backgroundImage: "url(bg.jpg)",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center center",
-        backgroundSize: "cover",
-      }}
+      className="flex flex-wrap items-center justify-between m-0 text-lg text-gray-500 bg-white bg-center bg-cover font-noto sm:text-xl "
+      style={{ lineHeight: "23px", fontWeight: 300, backgroundImage: "url(bg.jpg)", vbackgroundRepeat: "no-repeat", backgroundPosition: "top ", backgroundSize: "cover", }}
     >
-      <div className="w-full sm:mx-20 font-i" >
-        <ul className="flex items-center w-full sm:pr-20">
-          <img src="govph.png" />
-          <li>
-            <a href="#"></a>
-            <a href="#"
-            className="py-2 transition-all rounded text-grey bg-white-300 hover:bg-red"
-            style={{ padding: '10px 16px' }}>Home</a>
-          </li>
-          <li>
-            <a href="#"></a>
-            <a href="#" className="py-2 transition-all rounded sm:px-8 nav2 text-grey bg-white-300 hover:bg-red ">Good Governance</a>
-          </li>
-          <li>
-            <a href="#"></a>
-            <a href="#" className="py-2 transition-all rounded sm:px-8 nav2 text-grey bg-white-300 hover:bg-red " >Transparency</a>
-          </li>
-          <li>
-            <a href="#"></a>
-            <a href="#" className="py-2 transition-all rounded sm:px-8 nav2 text-grey bg-white-300 hover:bg-red " >International Affairs</a>
-          </li>
-          <li>
-            <a href="#"></a>
-            <a href="#" className="py-2 transition-all rounded sm:px-8 nav2 text-grey bg-white-300 hover:bg-red ">Bid Notices and Invitation</a>
-          </li>
-
-          <div className="flex items-center">
-        <a href="/src/pages/contact-us.js"></a>
-        <a href="#" className="text-xl font-bold tracking-wide"></a>
+      <div className="mx-auto lg:px-10 col-md-12 ">
+        <div className="">
+          <ul className="flex justify-between ">
+            <li>
+              <a href="#">
+                <img src="govph.png" className="object-cover px-4 center hover:bg-red" />
+              </a>
+            </li>
+            <li className="pt-1">
+              <a href="#" className="px-4 py-3 font-normal center hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer lg:px-4" >Home</a>
+            </li>
+            <li className="pt-1 hide ">
+              <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >Good Governance</a>
+            </li >
+            <li className="pt-1 hide">
+              <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >Transparency</a>
+            </li>
+            <li className="pt-1 hide">
+              <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >International Affairs</a>
+            </li>
+            <li className="pt-1 hide">
+              <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4"  >Bid Notices and Invitation</a>
+            </li>
+            <li className="pt-1 topbar ">
+              <a href="#" className="px-4 py-3 font-normal justify-self-end center hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2" >Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="flex items-center pr-20">
-        <a href="#"></a>
-        <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red">Contact Us</a>
-      </div>
-        </ul>
-      </div>
-      
     </nav>
   );
 }
-export default Navigation;
+export default  Navigation

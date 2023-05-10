@@ -54,6 +54,13 @@ module.exports = {
         '5': '32px',
         '6': '48px',
       },
+      fontSize: {
+        sm: '15px',
+        ssm: '13.3333px',
+        sssm: '12px',
+        ssssm: '10.6667px',
+        m: '32px'
+      },
 
       
       // colors: {
