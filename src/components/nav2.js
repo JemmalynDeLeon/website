@@ -24,19 +24,19 @@ function Navigation() {
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>Good Governance</a>
+            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " >Good Governance</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>Transparency</a>
+            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " >Transparency</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>International Affairs</a>
+            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " >International Affairs</a>
           </li>
           <li>
             <a href="#"></a>
-            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
+            <a href="#" className="px-8 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red " >Bid Notices and Invitation</a>
           </li>
         </ul>
       </div>
