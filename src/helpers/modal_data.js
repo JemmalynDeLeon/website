@@ -4,7 +4,7 @@ export const Logo = [
     {src: '/ISOLOGO.png', width:'116', height: '100'},
 ]
 
-export const ModalLinks = [
+export const ModalLink = [
     {link: '#', title: 'Applicant', 
     d: 'fa-pencil-square'},
     {link: '#', title: 'Student', d: 'fa-book'},

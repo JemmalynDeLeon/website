@@ -295,7 +295,7 @@ export default function home() {
       <Footend />
       </section>
 
-      {/* <Fab /> */}
+      <Fab />
 
     </>
 
