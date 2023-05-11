@@ -1,24 +1,20 @@
 export const textContent = [
     {
       text: "When you contact the University through this Website, your submission is reviewed and then routed to the office/department concerned that can best attend to your needs. Because of the volume of messages this Web site receives we can't guarantee that you will receive a personal response, but rest assured that your submission was received, reviewed, and forwarded to the concerned department.",
-      classes: 'leading-loose text-gray body-font mb-7',
+      classes: 'leading-loose text-gray body-font mb-9',
     },
     {
       text: 'We are committed in listening to you and improving our services based upon your wishes. Your suggestion(s) will be reviewed by the department that implements those changes.',
-      classes: 'leading-loose text-gray body-font mb-7',
+      classes: 'leading-loose text-gray body-font mb-9',
     },
     {
       text: 'Although we are unable to reply individually to each message we receive, we appreciate your thoughts and opinions.',
-      classes: 'leading-loose text-gray body-font mb-7',
+      classes: 'leading-loose text-gray body-font mb-9',
     },
   ]
   
-  export const contactData = [
-    {
-      title: 'Specific Concerns',
-      email: 'E-mail',
-      classes: ' w-96  p-1',
-    },
+  export const contactData = [ 
+    
     {
       title: 'For PUP iApply or online test/exam registration concerns',
       email: 'iapply@pup.edu.ph',

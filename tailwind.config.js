@@ -7,7 +7,7 @@ module.exports = {
       
       colors: {
         'blue': '#1fb6ff',
-        'red':'#9F2A2A',
+        'red':'#7f1d1d',
         'white': '#FFFFFF',
         'purple': '#7e5bef',
         'black' : '#020808',
@@ -26,7 +26,9 @@ module.exports = {
         'dirtywhite':'#eee',
         'ytred':'#f43f5e',
         'twitterblue':'#337ab7',
-        'linkedinblue':'#7dd3fc'
+        'linkedinblue':'#7dd3fc',
+        'bgrey':'#94a3b8',
+        
       },
 
       text:{

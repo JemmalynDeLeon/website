@@ -114,7 +114,7 @@ export default function home() {
                   </div>
                   <div className="px-8 py-4 text-red">
                     <a href="#" className='hover:underline'>Internal Guidelines for Opt-Out and Voluntary Contribution of Students under Republic Act 10931</a>
-                    <p className="pt-2 text-gray">Posted: April 04, 2022</p>
+                    <p className="pt-2 ">Posted: April 04, 2022</p>
                   </div>
                 </div>
               </div>

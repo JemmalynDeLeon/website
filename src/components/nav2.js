@@ -102,7 +102,7 @@
 function Navigation() {
   return (
     <nav
-      className="flex flex-wrap items-center justify-between m-0 text-lg text-gray-500 bg-white bg-center bg-cover font-noto sm:text-xl "
+      className="flex flex-wrap items-center justify-between m-0 text-lg bg-white bg-center bg-cover text-gray font-noto sm:text-xl "
       style={{ lineHeight: "23px", fontWeight: 300, backgroundImage: "url(bg.jpg)", vbackgroundRepeat: "no-repeat", backgroundPosition: "top ", backgroundSize: "cover", }}
     >
       <div className="mx-auto lg:px-10 col-md-12 ">
