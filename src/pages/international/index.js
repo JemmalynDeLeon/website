@@ -8,12 +8,14 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Link from 'next/link'
+import Modal from "@components/modal";
 
 const International = ({ articlesData }) => {
   console.log(articlesData)
 
   return (
     <>
+      <Modal/>
       <Navbar2 />
       <Navbar1 />
       <div className="px-4 py-12 container-body">
@@ -137,6 +139,7 @@ const International = ({ articlesData }) => {
       <Footnote />
       <Footend/>
       <Fab />
+      
     </>
   )
 }

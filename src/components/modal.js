@@ -51,7 +51,7 @@ const Modal = () =>{
                       <div className="flex flex-col flex-wrap content-center w-full md:flex-row">
                           <div className="modal-items-container">
                               <div className="flex justify-center w-full py-6 logo-container">
-                                  <Image src="/PUPlogo.png" alt="" width={200} height={200}/>
+                                  <Image src="/PUPLogo.png" alt="" width={200} height={200}/>
                               </div>
                               <div className="flex justify-center w-full logos-container gap-x-1">
                                   {Logo.map((logo, index)=>(

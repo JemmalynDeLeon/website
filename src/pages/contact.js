@@ -4,11 +4,13 @@ import Navbar1 from '@/components/nav1'
 import Fab from '@/components/fab'
 import Contactus from '@/components/contactus'
 import Footend from '@/components/footend'
+import Modal from "@components/modal";
 
 const Contact = () => {
 
     return (
       <>
+        <Modal/>
         <Navbar2/>
         <Navbar1/>
         <Contactus/>
