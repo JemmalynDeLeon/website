@@ -35,7 +35,7 @@ const Modal = () =>{
     return(
         <>
           <button className="flex services-widget" onClick={()=> setIsModalOpen(true)}>
-            <span><i className="fa fa-desktop"/>MODAL</span>
+            <span><i className="fa fa-desktop"/></span>
           </button>
           {isModalOpen &&(
             <div className="z-10 bg-modal" onClick={onWindowClick}>

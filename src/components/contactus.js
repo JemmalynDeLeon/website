@@ -2,6 +2,10 @@ import { textContent, contactData, studentRecords, contacts, branches, openUniv,
 
 const ContactUs = () => {
   return (
+    <>
+      <button className="flex services-widget" onClick={()=> setIsModalOpen(true)}>
+        <span><i className="fa fa-desktop"/></span>
+      </button>
     <div className="px-4 py-12 container-body">
       <div className="flex flex-col lg:flex-row">
         <div className="overflow-x-auto lg:w-10/12">
@@ -156,6 +160,7 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 export default ContactUs
