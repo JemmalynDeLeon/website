@@ -13,6 +13,18 @@ import Modal from "@components/modal";
 const International = ({ articlesData }) => {
   console.log(articlesData)
 
+const converTimestamp = (timestamp) => {
+    const dateObject = new Date(timestamp);
+    const formattedDate = new Intl.DateTimeFormat("en-US", {
+      year : "numeric",
+      month: "long",
+      day : "numeric",
+    }).format(dateObject);
+
+    return formattedDate;
+  };
+  
+
   return (
     <>
       <Modal/>
@@ -110,9 +122,9 @@ const International = ({ articlesData }) => {
                         >
                           {value.title}
                         </p></Link>
-                        <p className="text-xs text-center text-gray lg:text-left">{value.created_at}</p>
+                        <p className="text-xs text-center text-gray lg:text-left">{converTimestamp(value.created_at)}</p>
                       </div>
-                    </div>
+                    </div> 
                   ))}
               </div>
             </div>
