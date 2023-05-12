@@ -59,9 +59,9 @@ const converTimestamp = (timestamp) => {
             <div className="flex flex-col">
               <div className="flex flex-row ">
                 <h4 className="items-start justify-start w-full mt-6 mb-6 text-left border-b border-gray">
-                  <a className="text-base font-semibold underline underline-offset-8" href="/announcements">
+                  <Link className="text-base font-semibold underline underline-offset-8" href="/announcements">
                     Articles
-                  </a>
+                  </Link>
                 </h4>
                 <div className="flex mt-7 w-9">
                   <button
