@@ -1482,3 +1482,9 @@ blockquote{
     margin-left: auto;
   }
 }
+
+.foot{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

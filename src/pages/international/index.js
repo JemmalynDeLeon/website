@@ -25,19 +25,19 @@ const International = ({ articlesData }) => {
         ></link>
         <div className="flex flex-col lg:flex-row">
           <div className="overflow-x-auto lg:w-9/12">
-            <h1 className="text-lg font-bold leading-7 text-left mt-0 text-[24px]">International Affairs</h1>
+            <h1 className="text-xl font-bold leading-9 text-left mt-0 text-[34px] text-red">International Affairs</h1>
             <img className="place-self-center" src={'/international.jpg'} width={800} height={300}></img>
-            <p className="leading-loose text-gray-500 body-font mb-7">
+            <p className="leading-loose text-gray body-font mb-7">
               The PUP Office of International Affairs is engaged in a wide variety of programs and activities aligned
               with the vision of President Manuel M. Muhi towards establishment of PUP as a National Polytechnic
               University.
             </p>
-            <p className="leading-loose text-gray-500 body-font mb-7">
+            <p className="leading-loose text-gray body-font mb-7">
               Thus, the Office for International Affairs provides leadership and coordination for all University-wide
               international activities for coherence and integration of the institution's international linkages,
               cooperation, exchanges, programs and services:
             </p>
-            <ul className="text-gray-500 list-disc list-inside body-font">
+            <ul className="list-disc list-inside text-gray body-font">
               {items.map((item) => (
                 <li key={item.text} className="mb-2">
                   {item.text}
@@ -46,7 +46,7 @@ const International = ({ articlesData }) => {
             </ul>
             <div className="flex flex-col">
               <div className="flex flex-row ">
-                <h4 className="items-start justify-start w-full mt-6 mb-6 text-left border-b border-gray-300">
+                <h4 className="items-start justify-start w-full mt-6 mb-6 text-left border-b border-gray">
                   <a className="text-base font-semibold underline underline-offset-8" href="/announcements">
                     Articles
                   </a>
@@ -54,7 +54,7 @@ const International = ({ articlesData }) => {
                 <div className="flex mt-7 w-9">
                   <button
                     // onClick={handlePrevSlide}
-                    className="flex flex-wrap items-center justify-center w-20 h-5 text-sm text-gray-400 border rounded hover:text-white hover:bg-maroon"
+                    className="flex flex-wrap items-center justify-center w-20 h-5 text-sm border rounded text-gray hover:text-white hover:bg-maroon"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const International = ({ articlesData }) => {
                   </button>
                   <button
                     // onClick={handleNextSlide}
-                    className="flex flex-wrap items-center justify-center w-20 h-5 text-sm text-gray-400 border rounded hover:text-white hover:bg-maroon"
+                    className="flex flex-wrap items-center justify-center w-20 h-5 text-sm border rounded text-gray hover:text-white hover:bg-maroon"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -106,11 +106,11 @@ const International = ({ articlesData }) => {
                         <Link legacyBehavior href={{ pathname: `/international/${value.id}` }}>
                         <p
                           
-                          className="font-bold text-red-800 body-font lg:text-left "
+                          className="font-bold text-red body-font lg:text-left "
                         >
                           {value.title}
                         </p></Link>
-                        <p className="text-xs text-center text-gray-500 lg:text-left">{value.created_at}</p>
+                        <p className="text-xs text-center text-gray lg:text-left">{value.created_at}</p>
                       </div>
                     </div>
                   ))}
@@ -119,12 +119,12 @@ const International = ({ articlesData }) => {
           </div>
           <div className="lg:px-4 lg:w-3/12">
             <div className="overflow-hidden mb-50">
-              <h4 className="mt-10 text-[14px] text-left lg:mt-0 font-thin">CONTENTS</h4>
-              <div className="absolute block w-10 h-0.5 bg-gray-300"></div>
-              <ul className="block w-full pt-2 text-gray-500 divide-y mt-">
+              <h4 className="mt-10 text-[14px] text-left lg:mt-0 font-thin text-red">CONTENTS</h4>
+              <div className="absolute block w-10 h-0.5 bg-gray"></div>
+              <ul className="block w-full pt-2 divide-y text-gray mt-">
                 {contents.map((content, index) => (
                   <li className="py-1.5" key={index}>
-                    <p className="text-left transition duration-300 ease-in-out transform hover:text-red-800 hover:translate-x-2">
+                    <p className="text-left transition duration-300 ease-in-out transform hover:text-red hover:translate-x-2">
                       <a className="body-font" href={content.link}>
                         {content.name}
                       </a>
