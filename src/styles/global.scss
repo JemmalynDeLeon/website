@@ -1488,3 +1488,10 @@ blockquote{
   flex-direction: column;
   width: 100%;
 }
+
+@media (min-width: 280px) and (max-width: 640px){
+  .logo {
+    max-width: 30px;
+    max-height: 30px;
+  }
+}

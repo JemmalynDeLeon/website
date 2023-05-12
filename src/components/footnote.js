@@ -72,12 +72,14 @@ const Footnote = () => {
                         </span></a>
                     </div>
                 </div>
+                
                 <div>
                 <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">CONTACT US</p>
                 <p class="text-bl text-gray"> Phone: <strong class="text-bl text-grey">(+63 2) 5335-1PUP (5335-1787) or 5335-1777</strong></p>
                 <p class="text-bl text-gray"> Email: <strong class="text-bl text-grey">inquire@pup.edu.ph</strong></p>
-                <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">PUPWEBSITE 10</p>
+                
                 </div>
+                <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">PUPWEBSITE 10</p>
                 <div className="flex flex-row gap-2 ">
                         <a className="text-grey text-textsize hover:underline hover:cursor-pointer">Terms of Use </a>
                         <p className="text-grey text-textsize hover:underline ">|</p>
@@ -86,8 +88,8 @@ const Footnote = () => {
                         <a className="cursor-pointer text-grey text-textsize hover:underline">About PUPWebSite</a>
                     </div>
 
-            </div>
-        </div>
+                </div>
+             </div>
         <section />
         <p class="pb-12 flex justify-center bg-dirtywhite text-[8pt] font-I text-gr">© 1998-2021 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</p>
         </>

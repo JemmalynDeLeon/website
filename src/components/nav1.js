@@ -75,7 +75,7 @@ const Navbar = () => {
 
                     <div>
                         <div className="flex flex-row ">
-                            <img src="PUPLogo.png" class="md:max-w-[90px] md:max-h-[90px] sm:max-w-[60px] sm:max-h-[60px] pupLogo" />
+                            <img src="PUPLogo.png" class="logo md:max-w-[90px] md:max-h-[90px] sm:max-w-[60px] sm:max-h-[60px] pupLogo" />
                             <div class="flex flex-col menu font-sanscinzel pt-4">
                                 <div class="navbarMenu hide">
                                     <a href="#" class="text-red text-sm font-bold flex flex-row gap-2 hover:underline" style={{ fontSize: '18px' }} >

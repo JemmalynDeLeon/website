@@ -26,15 +26,14 @@ const Articles = ({ article }) => {
         </div>
         <div className="px-2 py-12 container-body">
           <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           ></link>
           <div className="flex flex-col lg:flex-row">
             <div className="overflow-x-auto lg:w-9/12">
               <div>
                 <h1 className="text-lg font-bold leading-7 text-left mt-0 text-[24px]">{article.title}</h1>
-                <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-200" />
-                <p className="leading-loose text-gray-500 body-font mb-7">{article.content}</p>
+                <hr className="h-px my-4 border-0 bg-gray dark:bg-gray" />
+                <p className="leading-loose text-gray body-font mb-7">{article.content}</p>
                 <div className="flex justify-center">
                   <img src={article.images} alt="Image 1" className="w-32 h-32 m-2" />
                   <img src="image2.jpg" alt="Image 2" className="w-32 h-32 m-2" />
@@ -46,11 +45,11 @@ const Articles = ({ article }) => {
             <div className="lg:px-4 lg:w-3/12">
               <div className="overflow-hidden mb-50">
                 <h4 className="mt-10 text-[14px] text-left lg:mt-0 font-thin">CONTENTS</h4>
-                <div className="absolute block w-10 h-0.5 bg-gray-300"></div>
+                <div className="absolute block w-10 h-0.5 bg-gray"></div>
                 <ul className="block w-full pt-2 text-gray-500 divide-y mt-">
                   {contents.map((content, index) => (
                     <li className="py-1.5" key={index}>
-                      <p className="text-left transition duration-300 ease-in-out transform hover:text-red-800 hover:translate-x-2">
+                      <p className="text-left transition duration-300 ease-in-out transform hover:text-red hover:translate-x-2">
                         <a className="body-font" href={content.link}>
                           {content.name}
                         </a>
