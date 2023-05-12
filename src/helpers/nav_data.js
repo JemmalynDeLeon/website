@@ -1,0 +1,66 @@
+
+    export const about = [
+        { a: 'University Profile' },
+        { a: 'Vision and Mission' },
+        { a: 'History' },
+        { a: 'Logo and Symbols' },
+        { a: 'Hymn' },
+        { a: 'Annual Reports' },
+        { a: 'Awards and Recognitions' },
+        { a: 'Contact us' },
+        { a: 'Maps' },
+        { a: 'University Code' },
+        { a: 'Institutional Development Plan' },
+        { a: 'Quality Policy Statement' },
+        { a: 'Branches and Satellite Campuses' },
+        { a: 'Teaching and Learning Development' },
+        { a: 'Memorandum Orders' },
+        { a: 'Strategic Performance Management System' },
+    ]
+
+    export const acad = [
+        { a: 'Academic Programs' },
+        { a: 'Open University System' },
+        { a: 'Graduate Studies' },
+        { a: 'Colleges' },
+        { a: 'Institute of Technology' },
+        { a: 'Senior High School' },
+        { a: 'Laboratory High SChool' },
+        { a: 'Library Services' },
+        { a: 'Online Public Access Catalog' },
+        { a: 'Quality Assurance' },
+        { a: 'Branches and Satellite Campuses' },
+        { a: 'Teaching and Learning Development' },
+        { a: 'PUP eMabini Learning Portal' },
+        { a: 'OVPAA' },
+    ]
+
+export const students = [
+        { a: 'Student Services' },
+        { a: 'Student Organizations' },
+        { a: 'Student Publications' },
+        { a: 'Student Council' },
+        { a: 'Student Handbook' },
+        { a: 'University Registrar' },
+        { a: 'PUP Student Information System' },
+        { a: 'PUP Online Document Request System' },
+        { a: 'PUP Bookstore' },
+        { a: 'Downloadable Forms' },
+        { a: 'Online Job Postings' },
+    ]
+
+    export const research = [
+        { a: 'Researchers' },
+        { a: 'Extensions' },
+        { a: 'Institutional Planning' },
+        { a: 'Intellectual Property' },
+        { a: 'Research Publications' },
+        { a: 'Science and Technology' },
+        { a: 'Cultural and Language' },
+        { a: 'Strategic Foresight and Innovation' },
+        { a: 'Human and Social Development' },
+        { a: 'PUP Student Information System' },
+        { a: 'Gender and Development' },
+        { a: 'PUP Online Survey for Faculty Evaluation' },
+        { a: 'University Thesis and Dissertion Manual' },
+    ]

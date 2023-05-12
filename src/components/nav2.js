@@ -114,7 +114,7 @@ function Navigation() {
               </a>
             </li>
             <li className="pt-1">
-              <a href="#" className="px-4 py-3 font-normal center hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer lg:px-4" >Home</a>
+              <a href="/" className="px-4 py-3 font-normal center hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer lg:px-4" >Home</a>
             </li>
             <li className="pt-1 hide ">
               <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >Good Governance</a>
@@ -123,13 +123,13 @@ function Navigation() {
               <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >Transparency</a>
             </li>
             <li className="pt-1 hide">
-              <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >International Affairs</a>
+              <a href="/international" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4" >International Affairs</a>
             </li>
             <li className="pt-1 hide">
               <a href="#" className="py-3 font-normal hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2 lg:px-4"  >Bid Notices and Invitation</a>
             </li>
             <li className="pt-1 topbar ">
-              <a href="#" className="px-4 py-3 font-normal justify-self-end center hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2" >Contact Us</a>
+              <a href="/contact" className="px-4 py-3 font-normal justify-self-end center hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer md:px-2" >Contact Us</a>
             </li>
           </ul>
         </div>

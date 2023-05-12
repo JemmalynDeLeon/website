@@ -266,9 +266,10 @@ export default function home() {
 
 
       <section class="flex flex-col space-y-4 embed-links sm:w-full items-center justify-center my-6 " style={{ marginBottom: '-55px' }}>
-        <div className='flex flex-row embedResponsive sm:flex-col md:flex-col lg:flex-row '>
-          <div className="flex flex-wrap justify-center mt-10 twitty border-grey">
-            <div className="flex justify-center w-3/4 h-auto ">
+
+      <div className='flex flex-row items-center justify-center embedResponsive sm:flex-col md:flex-col lg:flex-row '>
+          <div className="flex flex-wrap justify-center twitty lg:mb-6 border-grey">
+            <div className="flex justify-center w-full h-auto ">
               <div className="twit">
                 <a class="twitter-timeline" data-height="820" data-theme="dark" href="https://twitter.com/ThePUPOfficial?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>

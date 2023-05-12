@@ -35,31 +35,57 @@ const Footnote = () => {
             <div className="flex flex-col p-10">
                 <p className="pb-4 text-sm font-bold uppercase text-red">KEEP IN TOUCH</p>
                 <div class="flex space-x-4">
-                <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue text-white">
+                     <div class="" >
+                        <a href="https://www.facebook.com/ThePUPOfficial" className="mr-6" >
+                            <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue text-white">
                             {/* <i class="fa-brands fa-facebook text-white text-lg icon-medium-effect icon-effect-2"></i> */}
                             <i class="fab fa-facebook-f text-white"  style={{ fontSize: '32px'}} ></i>
-                        </span>
+                            </span>
+                        </a>
+
+                        <a href="https://twitter.com/ThePUPOfficial" className="mr-6" >
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-twitterblue">
                             <i class="fab fa-brands fa-twitter text-white"  style={{ fontSize: '32px'}}></i>
-                        </span>
+                            </span>
+                        </a>
+
+                        <a href="https://www.youtube.com/user/pupcreatv" className="mr-6">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-ytred">
                         <i class="fab fa-brands fa-youtube text-white" style={{ fontSize: '32px'}}></i>
                         </span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/school/polytechnic-university-of-the-philippines/" className="mr-6">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-linkedinblue">
                             <i class="fab fa-solid fa-linkedin text-white"  style={{ fontSize: '32px'}}></i>
                         </span>
+                        </a>
+                        
+                        <a href="https://www.pup.edu.ph/rss/" className="mr-6 ">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-orange">
                             <i class="fa fa-solid fa-rss text-white "  style={{ fontSize: '32px'}}></i>
-                        </span>
+                        </span></a>
+                        
+                        <a href="https://open.spotify.com/show/6x7hlv9qZX8VpwMIRAAiRb?si=h7yM8PeXR6qxSjQIs2GveA&dl_branch=1&nd=1" className="mr-6">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-green">
                             <i class="fab fa-brands fa-spotify text-white "  style={{ fontSize: '32px'}}></i>
-                        </span>
+                        </span></a>
+                    </div>
                 </div>
+                <div>
                 <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">CONTACT US</p>
                 <p class="text-bl text-gray"> Phone: <strong class="text-bl text-grey">(+63 2) 5335-1PUP (5335-1787) or 5335-1777</strong></p>
                 <p class="text-bl text-gray"> Email: <strong class="text-bl text-grey">inquire@pup.edu.ph</strong></p>
                 <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">PUPWEBSITE 10</p>
-                <p class="text-gr text-gray"> Terms of Use | Privacy Statement | About PUPWebSite</p>
+                </div>
+                <div className="flex flex-row gap-2 ">
+                        <a className="text-grey text-textsize hover:underline hover:cursor-pointer">Terms of Use </a>
+                        <p className="text-grey text-textsize hover:underline ">|</p>
+                        <a className="text-grey text-textsize hover:underline hover:cursor-pointer">Privacy Statement</a>
+                        <p className="text-grey text-textsize hover:underline ">|</p>
+                        <a className="cursor-pointer text-grey text-textsize hover:underline">About PUPWebSite</a>
+                    </div>
+
             </div>
         </div>
         <section />
